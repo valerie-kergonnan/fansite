@@ -5,22 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>photos</title>
-  <link rel="stylesheet" href="hill-le-conteur.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gradient-to-l from-rose-300 via-purple-300 to-indigo-400 min-h-screen">
 
-  <img class="image3" src="assetes/channels4_banner.jpg" width="980px" alt="y'">
+  <img class="w-full h-60 object-cover" src="assetes/channels4_banner.jpg" alt="y'">
 
-  <main>
-    <div class="photos">
-
-
-      <h1> quelques photos</h1>
-      <div>
-        <img src="assetes/hill-le-conteur1.jpg" width="300px" alt="will">
-        <img src="assetes/hill-le-conteur2.jpg" width="300px" alt="will2">
-        <img src="assetes/hill-le-conteur3.jpg" width="300px" alt="will3">
+  <main class="px-4 md:px-10">
+    <div class="flex flex-col items-center py-8">
+      <h1 class="text-4xl font-bold mb-6 text-center"> quelques photos</h1>
+      <div class="flex flex-wrap justify-center gap-6">
+        <img src="assetes/hill-le-conteur1.jpg" class="w-72 h-auto rounded-lg shadow-lg" alt="will">
+        <img src="assetes/hill-le-conteur2.jpg" class="w-72 h-auto rounded-lg shadow-lg" alt="will2">
+        <img src="assetes/hill-le-conteur3.jpg" class="w-72 h-auto rounded-lg shadow-lg" alt="will3">
       </div>
     </div>
   </main>
@@ -28,18 +26,16 @@
 
 
 
-  <footer>
-    <nav class="navbar">
-      <a class="link" href="hommages.html">hommages</a>
-     <a  class="link" href="hill-le-conteur.html">hill</a>
-            <a class="link" href="photos.html">photos</a>
-            <a class="link" href="albums.html">albums</a>
-            
-
-
-      <a href="">
-
-      </a>
+  <footer class="mt-8 pb-6">
+    <nav class="flex flex-row justify-center items-center gap-4 flex-wrap">
+      <a class="text-lg bg-violet-500 text-white no-underline py-1 px-4 rounded-full hover:bg-violet-600 transition"
+        href="index.html">hommages</a>
+      <a class="text-lg bg-violet-500 text-white no-underline py-1 px-4 rounded-full hover:bg-violet-600 transition"
+        href="hill-le-conteur.html">hill</a>
+      <a class="text-lg bg-violet-500 text-white no-underline py-1 px-4 rounded-full hover:bg-violet-600 transition"
+        href="photos.html">photos</a>
+      <a class="text-lg bg-violet-500 text-white no-underline py-1 px-4 rounded-full hover:bg-violet-600 transition"
+        href="albums.html">albums</a>
     </nav>
   </footer>
 </body>
